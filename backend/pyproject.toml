@@ -1,0 +1,15 @@
+[project]
+name = "ollama-chatbot-backend"
+version = "0.1.0"
+description = "Backend for local Ollama Chatbot"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "httpx",
+    "pydantic-settings",
+    "python-dotenv"
+]
+
+[tool.setuptools]
+packages = ["app"]

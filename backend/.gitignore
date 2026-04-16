@@ -1,0 +1,12 @@
+# Python build artifacts
+build/
+lib/
+*.egg-info/
+__pycache__/
+
+# Environments
+venv/
+.env*
+!.env.template
+
+!.env.template
